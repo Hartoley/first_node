@@ -61,6 +61,7 @@ const studentlogin = async(req, res)=>{
     console.log(error);
     res.status(500).send({message:"interal server error", status:false})
    }
+  
 }
 
 const uploadimage = async (req, res) =>{
